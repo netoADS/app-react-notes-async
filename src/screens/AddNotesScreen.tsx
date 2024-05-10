@@ -34,7 +34,7 @@ const AddNotesScreen: React.FC<AddNoteScreenProps> = ({route}) => {
                 />
             <Button mode="contained" onPress={handleChangeNote}>
                 Adicionar Nota
-            </Button>
+            </Button>   
         </View>
     )
 }
