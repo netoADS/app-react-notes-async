@@ -58,7 +58,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({navigation}) => {
             <FAB
                 style={styles.fab}
                 icon={"plus"}
-                onPress={ () => { navigation.navigate ('AddNote', handleAddNote)} }
+                onPress={ () => { navigation.navigate('AddNote', handleAddNote)} }
                 />
         </View>
     )
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'white',
-        padding: 16 
+        padding: 16
     },
     card: {
         marginBottom: 16
